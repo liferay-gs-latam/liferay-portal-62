@@ -1,0 +1,11 @@
+**/node_modules
+**/build
+tmp
+liferay-files/deploy/*.xml
+liferay-document-library/*
+liferay-deploy/*
+mysql-dump/*
+
+!liferay-document-library/.keep
+!liferay-deploy/.keep
+!mysql-dump/.keep
