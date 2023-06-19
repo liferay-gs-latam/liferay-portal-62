@@ -2,8 +2,14 @@
 
 Liferay portal 6.2-EE running on docker compose.
 
-Get a license for 6.2-EE and put into the ```liferay-files/deploy``` folder. Then run:
+Execute:
 
 ```
-docker compose up
+docker compose up --build -d
+```
+
+Then:
+
+```
+docker compose logs -f liferay
 ```
