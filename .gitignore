@@ -1,7 +1,6 @@
 **/node_modules
 **/build
 tmp
-liferay-files/deploy/*.xml
 liferay-document-library/*
 liferay-deploy/*
 mysql-dump/*
